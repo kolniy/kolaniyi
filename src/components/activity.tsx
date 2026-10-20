@@ -125,7 +125,7 @@ export function Activity() {
           <ul className="mt-8 flex flex-wrap gap-3">
             {site.activityLinks.map((l) => (
               <li key={l.href}>
-                <a href={l.href} className="chip !text-fg hover:!border-accent">
+                <a href={l.href} className="chip text-fg! hover:border-accent!">
                   {l.label} ↗
                 </a>
               </li>
