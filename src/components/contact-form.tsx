@@ -9,7 +9,7 @@ type State = {
   message?: string;
 };
 
-export function ContactForm({ configured }: { configured?: boolean }) {
+export function ContactForm({ configured = true }: { configured?: boolean }) {
   const [errors, setErrors] = useState<FieldErrors>({});
   const [state, setState] = useState<State>({ status: "idle" });
   const startedAt = useRef(Date.now());
