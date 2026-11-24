@@ -21,14 +21,14 @@ export function Contact() {
     >
       <div
         aria-hidden
-        className="pointer-events-none absolute -bottom-40 left-1/2 h-96 w-[60rem] -translate-x-1/2 rounded-full bg-accent/10 blur-3xl"
+        className="pointer-events-none absolute -bottom-40 left-1/2 h-96 w-240 -translate-x-1/2 rounded-full bg-accent/10 blur-3xl"
       />
       <div className="container-page relative grid gap-14 lg:grid-cols-[1.1fr_1fr] lg:gap-20">
         <div className="reveal">
           <p className="eyebrow">Contact</p>
           <h2
             id="contact-title"
-            className="h-display mt-6 !text-[clamp(2.2rem,5.5vw,4.25rem)]"
+            className="h-display mt-6 text-[clamp(2.2rem,5.5vw,4.25rem)]!"
           >
             Have a hard problem?{" "}
             <span className="text-accent">Let&apos;s design the fix.</span>
